@@ -94,7 +94,7 @@ export function ChatInput({
   return (
     <form
       onSubmit={handleSubmit}
-      className="pointer-events-none mx-auto max-w-2xl"
+      className="pointer-events-none mx-auto max-w-full"
     >
       <div className="pointer-events-auto">
         <select
