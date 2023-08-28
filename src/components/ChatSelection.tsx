@@ -46,7 +46,7 @@ const ChatSummaryText = memo(({ summary }: ChatSummaryTextProps) => {
   }, [summary]);
 
   return (
-    <p className="block h-[24px] w-full max-w-[80%] overflow-hidden overflow-ellipsis">
+    <p className="block h-[24px] w-full max-w-[95%] overflow-hidden overflow-ellipsis">
       <span className="block h-full">{displaySummary}</span>
     </p>
   );
