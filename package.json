@@ -11,11 +11,11 @@
   "scripts": {
     "dev": "vite",
     "build:client": "tsc && vite build",
-    "build:electron": "npm run build:client && electron-builder",
+    "build:electron": "npm run build:client && electron-builder --universal",
     "build": "npm run build:client",
     "preview": "vite preview",
     "prepare": "husky install",
-    "release": "npm run build:client && electron-builder --publish always"
+    "release": "npm run build:client && electron-builder --universal --publish always"
   },
   "repository": {
     "type": "git",
