@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "vite",
     "build:client": "tsc && vite build",
-    "build:electron": "npm run build:client && electron-builder --universal",
+    "build:app-mac": "npm run build:client && electron-builder --mac --universal",
+    "build:app-linux": "npm run build:client && electron-builder --linux",
     "build": "npm run build:client",
     "preview": "vite preview",
     "prepare": "husky install",
